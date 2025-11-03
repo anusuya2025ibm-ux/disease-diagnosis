@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Disease Diagnosis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Disease Diagnosis Tool</h1>
+    <form id="diagnosisForm">
+      <label for="age">Age:</label>
+      <input type="number" id="age" required>
+
+      <label for="bp">Blood Pressure:</label>
+      <input type="number" id="bp" required>
+
+      <label for="glucose">Glucose Level:</label>
+      <input type="number" id="glucose" required>
+
+      <label for="cholesterol">Cholesterol:</label>
+      <input type="number" id="cholesterol" required>
+
+      <button type="submit">Diagnose</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
